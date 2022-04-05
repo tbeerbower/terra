@@ -8,6 +8,9 @@ public class Department {
 
     @Id
     private Long id;
-
     private String name;
+
+    // TODO : relationships
+//    @OneToMany
+//    private Set<Employee> employees;
 }

@@ -13,6 +13,10 @@ public class Employee {
     private String lastName;
     private String email;
 
-    // TODO : generate many to one relationships
-    // private Department department;
+    // TODO : relationships
+//    @ManyToOne
+//    private Department department;
+//
+//    @ManyToMany
+//    private Set<Project> projects;
 }

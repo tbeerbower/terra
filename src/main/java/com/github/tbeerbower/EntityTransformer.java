@@ -65,7 +65,7 @@ public class EntityTransformer extends ClassTransformer {
     }
 
     /**
-     * Hack the toString() method.
+     * Transform each entity and create the controller and repository for each.
      */
     @Override
     public void applyTransformations(CtClass classToTransform)
